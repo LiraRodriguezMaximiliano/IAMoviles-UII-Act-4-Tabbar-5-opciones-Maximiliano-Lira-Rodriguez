@@ -15,6 +15,42 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+#Prompt
+
+Desarrollo de una aplicación móvil con enfoque empresarial para la marca Lala. El objetivo principal es ofrecer una interfaz limpia y profesional para la visualización de productos, recetas y opiniones de usuarios, utilizando una navegación centralizada y carga de recursos en la nube.
+
+Patrón de Navegación: Implementación de un BottomNavigationBar con 5 pestañas de acceso rápido.
+
+Manejo de Rutas: Uso de Rutas Nombradas (Named Routes) en el MaterialApp para una navegación escalable y organizada desde el main.dart.
+
+Estructura de Carpetas: Organización modular con la carpeta mis_paginas_tab, separando la lógica de la barra de navegación del contenido de cada vista individual.
+
+Header Personalizado: Barra superior (AppBar) fija en color azul institucional (#00519E) con el título "LALA Maximiliano Lira".
+
+Iconografía: Selección de iconos de Material Design específicos para cada categoría:
+
+Inicio: Icons.home
+
+Lácteos: Icons.water_drop
+
+No Lácteos: Icons.eco
+
+Recetas: Icons.menu_book
+
+Reseñas: Icons.star
+
+Carga de Imágenes: Integración de Image.network para consumir assets directamente desde repositorios de GitHub, permitiendo una app ligera y contenido actualizable de forma remota.
+
+Inicio: Pantalla principal de bienvenida y branding.
+
+Productos Lácteos: Sección para leches y derivados tradicionales.
+
+No Lácteos: Sección para la línea vegetal (Almendra, Coco, Soya).
+
+Recetas: Listado de preparaciones sugeridas con productos de la marca.
+
+Reseñas: Espacio para la retroalimentación y calificación de clientes.
+
 # Imagenes
 <img width="1056" height="736" alt="image" src="https://github.com/user-attachments/assets/c0220a93-2f41-4ff1-bb33-00993de5f8b5" />
 <img width="1060" height="736" alt="image" src="https://github.com/user-attachments/assets/6bdb8b08-76f2-4546-bbcf-fb810fdcb541" />
